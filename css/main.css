@@ -1,0 +1,86 @@
+@import url('https://fonts.google.com/specimen/Lato?query=LATO|Raleway');
+body{
+background-color: #2d2d2d;
+font-family:"Lato";
+font-weight: 300;
+font-size: 16;
+color: rebeccapurple;
+-webkit-font-smoothing: anitialiased;
+-webkit-overflow-scrolling: touch;
+margin-top: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Raleway";
+    font-weight: 300;
+    color: whitesmoke;
+}
+p{
+ line-height: 28px;
+ margin-bottom: 25px;
+}
+.centered {
+    text-align:center;
+}
+a{
+ color: aqua;   
+}
+a:hover,a:focus{
+color: plum;
+text-decoration:none;
+outline: 1;    
+}
+hr{
+display :block;
+height: 10px;
+border: 0;
+border-top: 1px solid plum;
+margin: 1em 0;
+padding:0;
+}
+.navbar{
+    font-weight: 200;
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    
+}
+.navbar-inverse{
+    background: #2d2d2d;
+    border-color:#2d2d2d;
+}
+
+.navbar-inverse .navbar-brand{
+    color: plum;
+    font-weight: bolder;
+    font-size:22px;
+    letter-spacing: 1px;
+}
+#headerwrap{
+   background: url(../img/1.jpg) no-repeat center top;
+   margin-top: -10px;
+   padding-top:20px;
+   text-align: center;
+   background-attachment: relative;
+   background-position: center center;
+   min-height: 500px;
+   width: 100%;
+}
+#headerwrap h1{
+ margin-top: 100px;   
+ color:white;
+ font-size: 70px;
+ font-weight: 300;
+ letter-spacing: 3px;
+}
+#headerwrap h2{
+color: white;
+font-size: 40px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+   
+
+
+
+
